@@ -21,4 +21,15 @@ const userName = prompt("Whar is your name?");
 console.log(userName)
 // 8
 const userAnswer = confirm('Ви дійсно хочете покинути сторінку?')
-if (userAnswer)
+if (userAnswer) {
+    alert("Дякую за підтвердження!")
+} else {
+    alert("Дію відмінено!")
+}
+// 9
+const userDanger = confirm('Ця дія небезпечна, ви точно хочете продовжити?')
+if (userAnswer) {
+    alert("Дякую за підтвердження!")
+} else {
+    alert("Дію відмінено!")
+}
