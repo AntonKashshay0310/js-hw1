@@ -28,7 +28,7 @@ if (userAnswer) {
 }
 // 9
 const userDanger = confirm('Ця дія небезпечна, ви точно хочете продовжити?')
-if (userAnswer) {
+if (userDanger) {
     alert("Дякую за підтвердження!")
 } else {
     alert("Дію відмінено!")
