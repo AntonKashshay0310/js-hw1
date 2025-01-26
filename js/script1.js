@@ -27,9 +27,10 @@ if (userAnswer) {
     alert("Дію відмінено!")
 }
 // 9
-const userDanger = confirm('Ця дія небезпечна, ви точно хочете продовжити?')
-if (userDanger) {
-    alert("Дякую за підтвердження!")
+alert("Увага! Ця дія може бути небезпечною!")
+const userDangeour = confirm("Ця дія небезпечна ви впевнені шо хочете продовжити?");
+if (userDangeour) {
+  alert("Дякую за підтвердження!");
 } else {
-    alert("Дію відмінено!")
+  alert("Дію відмінено!");
 }
